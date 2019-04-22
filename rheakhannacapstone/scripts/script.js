@@ -201,7 +201,7 @@ $(".nextthree").click(function() {
           top: '42.5%'},1300);
 
 	$(".redfiller").delay(3500).fadeIn(3000);
-	$(".blood").delay(4500).fadeIn(3000);
+	$(".blood").delay(4500).fadeIn(3400);
 
  
  	$(".nextthree").fadeOut(1000);

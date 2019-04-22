@@ -655,7 +655,6 @@ html, body {
 }
 
 
-
 .dash{
   border: 0 none;
   border-top: 1px dashed white;
@@ -663,6 +662,7 @@ html, body {
   height:0;
   margin-top: 0.5%;
 }
+
 
 .blackdash{
   border: 0 none;
@@ -674,22 +674,20 @@ html, body {
 
 
 .blood {
-  width:200%;
-  height: 140%;
   position: absolute;
   display: none;
   z-index: -1;
-  opacity: 0.4;
-
+  opacity: 1;
 }
+
 
 .oil {
   width:200%;
   height: 140%;
   position: absolute;
   display: none;
-  z-index: -1;
-  opacity: 0.4;
+  z-index: 1;
+  opacity: 0.6;
 
 }
 
@@ -1770,7 +1768,7 @@ cursor: pointer;
   height: 200%;
   top: 15%;
   background-color: #26CF23;
-  background-image: linear-gradient(#26CF23, #023D00);
+  background-image: linear-gradient(#26CF23, #022400);
   opacity: 0.9;
 
 }
@@ -1781,7 +1779,7 @@ cursor: pointer;
   height: 100%;
   top: 0%;
   background-color: red;
-  opacity: 0.9;
+  opacity: 0.8;
   display: none;
 
 }
